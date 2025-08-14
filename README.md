@@ -54,3 +54,8 @@ python gerador_senhas.py
 - Métodos para geração de senha, validação da força, cópia e salvamento.
 - Uso de variáveis Tkinter para controle dos estados dos checkboxes e campos.
 
+## Imagens
+<img width="516" height="595" alt="image" src="https://github.com/user-attachments/assets/6e46c833-66f6-479c-9d89-26f8727e1726" /> <img width="521" height="596" alt="image" src="https://github.com/user-attachments/assets/148a8807-9588-4d66-933b-f2ea335d9a33" />
+
+
+
