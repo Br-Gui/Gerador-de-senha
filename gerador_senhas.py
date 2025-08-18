@@ -38,12 +38,12 @@ class GeradorSenhaApp(ctk.CTk):
         self.switch_tema.pack(side="right", padx=8, pady=8)
 
         ctk.CTkLabel(frame, text="Gerador de Senhas Seguras",
-                     font=("Segoe UI", 20, "bold")).pack(pady=(10, 10))
+                    font=("Segoe UI", 20, "bold")).pack(pady=(10, 10))
 
         frame_input = ctk.CTkFrame(frame, fg_color="transparent")
         frame_input.pack(pady=5)
         ctk.CTkLabel(frame_input, text="Comprimento da senha:",
-                     font=("Segoe UI", 12)).grid(row=0, column=0, padx=5)
+                    font=("Segoe UI", 12)).grid(row=0, column=0, padx=5)
         self.entry_tamanho = ctk.CTkEntry(
             frame_input, width=60, font=("Segoe UI", 12), justify="center")
         self.entry_tamanho.grid(row=0, column=1, padx=5)
